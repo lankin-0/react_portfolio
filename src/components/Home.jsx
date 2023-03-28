@@ -31,12 +31,16 @@ const Home = () => {
                 </span>
               </button>
               <button className="group text-white w-fit px-2 py-3 my-1 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
-                <a href="https://github.com/lankin-0" target="_blank">
+                <a
+                  href="https://github.com/lankin-0"
+                  className="flex"
+                  target="_blank"
+                >
                   GitHub
+                  <span className="group-hover:scale-110 duration-200">
+                    <FaGithub size={20} className="ml-3" />
+                  </span>
                 </a>
-                <span className="group-hover:scale-110 duration-200">
-                  <FaGithub size={20} className="ml-3" />
-                </span>
               </button>
             </div>
             <div className="text-white mt-2 flex flex-col justify-between mb-10 ">
@@ -46,7 +50,12 @@ const Home = () => {
               </div>
               <div className="flex flex-row mt-3">
                 <HiOutlineMail size={25} className="text-blue-500" />
-                <p className="ml-1 text-sm">nik_lankin@hotmail.com</p>
+                <a
+                  className="ml-1 text-sm"
+                  href="mailto:nik_lankin@hotmail.com"
+                >
+                  nik_lankin@hotmail.com
+                </a>
               </div>
               <div className="flex flex-row mt-3">
                 <FaLocationArrow size={25} className="text-blue-500" />
