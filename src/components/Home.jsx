@@ -30,14 +30,18 @@ const Home = () => {
                   <MdOutlineKeyboardArrowRight size={20} className="ml-1" />
                 </span>
               </button>
-              <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
-                <a href="https://github.com/lankin-0" target="_blank">
+              <div className="flex text-center items-center">
+                <a
+                  className="group text-white w-fit px-6 py-3 my-2  flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+                  href="https://github.com/lankin-0"
+                  target="_blank"
+                >
                   GitHub
+                  <span className="group-hover:scale-110 duration-200">
+                    <FaGithub size={20} className="ml-10" />
+                  </span>
                 </a>
-                <span className="group-hover:scale-110 duration-200">
-                  <FaGithub size={20} className="ml-10" />
-                </span>
-              </button>
+              </div>
             </div>
             <div className="text-white mt-2 flex flex-col justify-between mb-10">
               <div className="flex flex-row">
