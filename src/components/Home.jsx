@@ -46,7 +46,9 @@ const Home = () => {
             <div className="text-white mt-2 flex flex-col justify-between mb-10 ">
               <div className="flex flex-row">
                 <FaPhoneAlt size={25} className="text-blue-500 " />
-                <p className="ml-1 text-sm">+389 076 615 896</p>
+                <p className="ml-1 text-sm">
+                  <a href="+389076615896">+389 076 615 896</a>{" "}
+                </p>
               </div>
               <div className="flex flex-row mt-3">
                 <HiOutlineMail size={25} className="text-blue-500" />
