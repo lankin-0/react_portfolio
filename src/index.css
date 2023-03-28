@@ -10,4 +10,7 @@
   html {
     font-family: "Raleway", sans-serif;
   }
+  body {
+    background-color: black;
+  }
 }
