@@ -31,7 +31,7 @@ const Home = () => {
                 </span>
               </button>
               <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
-                <a href="/Ln_resume.pdf" download={true}>
+                <a href="https://github.com/lankin-0" target="_blank">
                   GitHub
                 </a>
                 <span className="group-hover:scale-110 duration-200">
