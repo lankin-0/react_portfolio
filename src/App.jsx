@@ -1,7 +1,7 @@
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
-
-import Experiance from "./components/Experiance";
+import Skills from "./components/Skills";
+import Technologies from "./components/Technologies";
 import SocialLinks from "./components/SocialLinks";
 
 const App = () => {
@@ -9,9 +9,8 @@ const App = () => {
     <div>
       <NavBar />
       <Home />
-
-      <Experiance />
-
+      <Skills />
+      <Technologies />
       <SocialLinks />
     </div>
   );

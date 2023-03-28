@@ -7,11 +7,11 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 "
+      className="h-full w-full bg-gradient-to-b from-black via-black to-gray-900 "
     >
-      <div className="max-w-screen-xl mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-82 mr-14">
-          <h2 className="text-2xl sm:text-6xl font-bold text-white ml-16 mt-24">
+      <div className="max-w-screen-xl mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row ">
+        <div className="flex flex-col justify-center h-82 mr-14 mt-20 sm:mb-52">
+          <h2 className="text-2xl sm:text-6xl font-bold text-white ml-16 mt-5 sm:mt-36">
             Front-End Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-lg ml-14">
@@ -64,7 +64,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="sm:mt-32">
           <img
             src={HeroImage}
             alt="my profile"
